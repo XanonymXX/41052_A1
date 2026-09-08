@@ -35,7 +35,7 @@ Each implementation owns its data, supports destruction and `clear`, and disable
 
 ## Build and Verification
 
-- Use portable C++17 and a simple `Makefile`, since CMake is not installed in the current environment.
+- Use portable C++21 and a simple `Makefile`, since CMake is not installed in the current environment.
 - Compile with strict warnings.
 - Run deterministic unit tests and an AddressSanitizer/UndefinedBehaviorSanitizer build where supported.
 - Benchmark generation and empirical reporting are intentionally deferred until the three implementations are correct.
